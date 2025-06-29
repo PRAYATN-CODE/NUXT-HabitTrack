@@ -1,75 +1,36 @@
-# Nuxt Minimal Starter
+# 🧠 HabitTrack – A Nuxt 3 Habit Tracker
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Welcome to **HabitTrack**, a beautifully designed habit tracking web application built with **Nuxt 3** and **Nuxt UI**. Track your daily habits, visualize your progress, and stay consistent toward your goals with a clean, responsive, and modern UI.
 
-## Setup
+![HabitTrack Screenshot](https://via.placeholder.com/1200x600.png?text=App+Screenshot)
 
-Make sure to install dependencies:
+---
 
-```bash
-# npm
-npm install
+## ✨ Features
 
-# pnpm
-pnpm install
+- ✅ Add, update, and delete daily habits
+- 📅 Track habit completion with calendar-style checkboxes
+- 🔥 View streaks and progress percentages
+- 🧾 Clean UI with Nuxt UI components
+- 💾 Firebase Firestore integration
+- 🌙 Dark mode support (optional)
+- 📱 Fully responsive design
 
-# yarn
-yarn install
+---
 
-# bun
-bun install
-```
+## 🛠 Tech Stack
 
-## Development Server
+- **Frontend**: [Nuxt 3](https://nuxt.com), [Vue 3](https://vuejs.org), [Nuxt UI](https://ui.nuxt.com)
+- **Database**: [Firebase Firestore](https://firebase.google.com/docs/firestore)
+- **Styling**: Tailwind CSS (via Nuxt UI)
+- **Icons**: [Lucide](https://lucide.dev/icons/), [Heroicons](https://heroicons.com)
 
-Start the development server on `http://localhost:3000`:
+---
 
-```bash
-# npm
-npm run dev
+## 🚀 Getting Started Locally
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
+### 1. Clone the repository
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+git clone https://github.com/your-username/habittrack.git
+cd habittrack
